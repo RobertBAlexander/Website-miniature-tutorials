@@ -1,0 +1,127 @@
+/*This css page is for anything that only appears on a
+tutorial related page. This includes the main tutorials page,
+the individual tutorial pages, and the tools page, which
+contains many tutorial-related images.*/
+
+/*This section covers anything that appears in the
+tutorial navigation menus only*/
+
+#current-tutorial
+{
+    border: 6px dashed;
+    border-color: yellow;
+}
+
+#tutorial
+{
+    border: 6px solid;
+    border-color: yellow;
+}
+
+/*This section covers anything that appears in a tutorial
+article element, and things which are only nested
+inside tutorial article elements*/
+
+.tutorial_opener
+{
+    float: left;
+    width: 78%;
+}
+
+.tutorial_article_image
+{
+    float: right;
+    width: 20%;
+    margin-top: 20px;
+}
+
+.tutorial_video
+{
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%; /* Should give 16:9 video ratio*/
+    padding-top: 25px;
+}
+
+.tutorial_video iframe
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#caution_text
+{
+    float: right;
+    width: 58%;
+    text-align: center;
+    font-family: Arial Black, Gadget, sans-serif;
+    color: red;
+    text-shadow: 1px 1px #000000;
+}
+
+/*This section covers anything that relates directly
+to tool images*/
+
+.tools
+{
+    width: 70%;
+    position: relative;
+    text-align: center;
+	  padding: 0px;
+    border: 4px dashed yellow;
+	  border-radius: 8px;
+	  margin-top: 1%;
+	  margin-left: 15%;
+	  margin-right: 15%;
+	  margin-bottom: 0%;
+}
+
+#img_tools
+{
+	  /*Both display-block, and max-100% ensure that the image takes
+    up the full size of the containing section, thus allowing
+    the dotted line to trace the image.*/
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#tool_image_container
+{
+	  position: relative;
+	  display: inline-block;
+	  display: inline;
+	  zoom: 1; 
+}
+
+#tool_text
+{
+    position: absolute;
+    width: 100%;
+    left: -20px;
+    bottom: 0px;
+    color: #FFFFFF;
+    padding-bottom: 55%;
+}
+
+/*This section covers anything that relates directly
+to the summaries on the tutorials main page*/
+
+#tutorial_summary
+{
+    color: white;
+}
+
+#tutorial_summary:hover
+{
+    color: yellow;
+}
+
+.tutorials
+{
+    padding: 10px;
+    margin-bottom: 10px;
+}

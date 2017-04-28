@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="../main.css" media="screen" />
+    <link type="text/css" rel="stylesheet" href="../tutorials/tutorials.css" media="screen" />
+    <title>HomePage</title>
+  </head>
+
+  <body>
+    <%-partial("../includes/_header.ejs")%>
+
+    <nav class="navigation">
+      <ul><br><br>
+        <li><a id="navlink" href="../../index.html">HOME PAGE</a></li><br><br>
+        <li id="tutorial"><a id="navlink" href="../../tutorials/tutorials-main.html">TUTORIALS</a><br><br>
+          
+          <ul>
+            <li><a id="navlink" href="../tutorials/pin-vice-drill.html">PIN VICE DRILL</a></li><br><br>
+            <li><a id="navlink" href="../tutorials/chain-link-fence.html">CHAIN LINK FENCE</a></li><br><br>
+            <li><a id="navlink" href="../tutorials/magnetic-tokens.html">MAGNETIC TOKENS</a></li><br><br>
+            <li><a id="navlink" href="../tutorials/6mm-bases.html">6mm BASES</a></li>
+          </ul>
+
+        </li><br><br>
+        <li><a id="navlink" href="../../tools.html">TOOLS I USE</a></li><br><br>
+        <li><a id="navlink" href="../../musicpage.html">MUSIC</a></li><br><br>
+        <li><a id="navlink" href="../../contact-me.html">CONTACT ME</a></li><br><br>
+      </ul>
+    </nav>
+    
+
+    <a id="tutorial_summary" href="../tutorials/pin-vice-drill.html">
+      <article class="tutorials">
+        <h2>How to: pin a model.</h2>
+        <p>Pinning is far more useful than you think when you're building your army. I use it for difficult plastic models, and pretty much every metal or resin model I own. 
+        <br><br>
+        My rule is, if you're unsure- pin it...</p>
+      </article>
+    </a>
+
+    <a id="tutorial_summary" href="../tutorials/chain-link-fence.html">
+      <article class="tutorials">
+        <h2>How to: Make a Chain Link Fence from leftover sprue</h2>
+        <p>This is part 1 in a series of tutorials that make use of leftover sprue pieces. In this tutorial, the sprue pieces will function as the posts holding up the chain link fence...</p>
+      </article>
+    </a>
+
+    <a id="tutorial_summary" href="../tutorials/magnetic-tokens.html">
+      <article class="tutorials">
+        <h2>How to: create magnetic gaming tokens</h2>
+        <p>Once you get into crunchier wargames, you'll often find that you need to use various tokens to denote points of special interest on the battlefield, special effects on units, and even battle damage. This tutorial shows you how to make magnetic tokens that are easier to manage...</p>
+      </article>
+    </a>
+
+    <a id="tutorial_summary" href="../tutorials/6mm-bases.html">  <article class="tutorials">
+        <h2>How to: make cheap 6mm bases</h2>
+        <p>When I went online to buy some 6mm bases for my new armies, I found that the bases were 10-20p, which add a fair bit of cost to your army when you count them all up. So I decided I would make my own 6mm bases. Here's how I did it...</p>
+      </article>
+    </a>
+    
+    <%-partial("../includes/_footer.ejs")%>
+  </body>
+</html>
